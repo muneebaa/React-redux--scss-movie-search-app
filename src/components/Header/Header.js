@@ -22,7 +22,7 @@ export default function Header() {
         <div className='search-bar'>
           <form onSubmit={submitHandler}>
             <input type="text" value={term} placeholder="Search Movies Or Shows" onChange={(e) => setTerm(e.target.value)} />
-            <button type='submit'><i className='fa fa-search'></i></button>
+            <button type='submit'><i className='fa fa-search icon'></i></button>
           </form>
         </div>
       <div className='user-image'>
